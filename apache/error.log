@@ -1,0 +1,644 @@
+Starting the Apache2.2 service
+The Apache2.2 service is running.
+] Apache/2.2.22 (Win32) configured -- resuming normal operations
+[Sun Nov 11 20:30:51 2018] [notice] Server built: Apr 20 2012 11:04:01
+[Sun Nov 11 20:30:51 2018] [notice] Parent: Created child process 516
+[Sun Nov 11 20:30:51 2018] [notice] Child 516: Child process is running
+[Sun Nov 11 20:30:51 2018] [notice] Child 516: Acquired the start mutex.
+[Sun Nov 11 20:30:51 2018] [notice] Child 516: Starting 64 worker threads.
+[Sun Nov 11 20:30:51 2018] [notice] Child 516: Starting thread to listen on port 80.
+[Sun Nov 11 20:30:51 2018] [notice] Child 516: Starting thread to listen on port 80.
+[Sun Nov 11 20:32:19 2018] [error] [client ::1] File does not exist: C:/apache/manual
+[Sun Nov 11 20:32:20 2018] [error] [client ::1] File does not exist: C:/apache/favicon.ico, referer: http://localhost/manual/
+[Sun Nov 11 21:05:01 2018] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Sun Nov 11 21:05:01 2018] [notice] Child 516: Exit event signaled. Child process is ending.
+[Sun Nov 11 21:05:02 2018] [notice] Child 516: Released the start mutex
+[Sun Nov 11 21:05:03 2018] [notice] Child 516: All worker threads have exited.
+[Sun Nov 11 21:05:03 2018] [notice] Child 516: Child process is exiting
+[Sun Nov 11 21:05:03 2018] [notice] Parent: Child process exited successfully.
+Starting the Apache2.2 service
+The Apache2.2 service is running.
+] Apache/2.2.22 (Win32) PHP/5.3.5 configured -- resuming normal operations
+[Sun Nov 11 21:05:06 2018] [notice] Server built: Apr 20 2012 11:04:01
+[Sun Nov 11 21:05:06 2018] [notice] Parent: Created child process 264
+[Sun Nov 11 21:05:06 2018] [notice] Child 264: Child process is running
+[Sun Nov 11 21:05:06 2018] [notice] Child 264: Acquired the start mutex.
+[Sun Nov 11 21:05:06 2018] [notice] Child 264: Starting 64 worker threads.
+[Sun Nov 11 21:05:06 2018] [notice] Child 264: Starting thread to listen on port 80.
+[Sun Nov 11 21:05:06 2018] [notice] Child 264: Starting thread to listen on port 80.
+[Sun Nov 11 21:06:20 2018] [error] [client 127.0.0.1] script 'C:/apache/test.php' not found or unable to stat
+[Sun Nov 11 21:06:20 2018] [error] [client 127.0.0.1] File does not exist: C:/apache/favicon.ico, referer: http://127.0.0.1/test.php
+[Sun Nov 11 21:06:50 2018] [error] [client ::1] script 'C:/apache/test.php' not found or unable to stat
+[Sun Nov 11 21:08:05 2018] [error] [client ::1] File does not exist: C:/apache/index.html
+[Sun Nov 11 21:08:20 2018] [error] [client ::1] script 'C:/apache/test.php' not found or unable to stat
+[Sun Nov 11 21:08:24 2018] [error] [client ::1] script 'C:/apache/test.php' not found or unable to stat
+[Sun Nov 11 21:08:29 2018] [error] [client ::1] File does not exist: C:/apache/index.html
+[Sun Nov 11 21:08:52 2018] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Sun Nov 11 21:08:52 2018] [notice] Child 264: Exit event signaled. Child process is ending.
+[Sun Nov 11 21:08:53 2018] [notice] Child 264: Released the start mutex
+[Sun Nov 11 21:08:54 2018] [notice] Child 264: All worker threads have exited.
+[Sun Nov 11 21:08:54 2018] [notice] Child 264: Child process is exiting
+[Sun Nov 11 21:08:54 2018] [notice] Parent: Child process exited successfully.
+[Sun Nov 11 21:08:54 2018] [notice] Apache/2.2.22 (Win32) PHP/5.3.5 configured -- resuming normal operations
+[Sun Nov 11 21:08:54 2018] [notice] Server built: Apr 20 2012 11:04:01
+[Sun Nov 11 21:08:54 2018] [notice] Parent: Created child process 8756
+[Sun Nov 11 21:08:54 2018] [notice] Child 8756: Child process is running
+[Sun Nov 11 21:08:54 2018] [notice] Child 8756: Acquired the start mutex.
+[Sun Nov 11 21:08:54 2018] [notice] Child 8756: Starting 64 worker threads.
+[Sun Nov 11 21:08:54 2018] [notice] Child 8756: Starting thread to listen on port 80.
+[Sun Nov 11 21:08:54 2018] [notice] Child 8756: Starting thread to listen on port 80.
+[Sun Nov 11 21:09:03 2018] [error] [client ::1] File does not exist: C:/apache/index.html
+[Sun Nov 11 21:09:07 2018] [error] [client ::1] File does not exist: C:/apache/index.html
+[Sun Nov 11 21:09:17 2018] [error] [client ::1] File does not exist: C:/apache/favicon.ico
+[Sun Nov 11 21:09:20 2018] [error] [client ::1] File does not exist: C:/apache/favicon.ico
+[Sun Nov 11 21:10:02 2018] [error] [client ::1] script 'C:/apache/test.php' not found or unable to stat
+[Sun Nov 11 21:10:07 2018] [error] [client ::1] File does not exist: C:/apache/index.html
+[Sun Nov 11 21:11:11 2018] [error] [client ::1] script 'C:/apache/phpinfo.php' not found or unable to stat
+[Sun Nov 11 21:11:15 2018] [error] [client ::1] script 'C:/apache/phpinfo.php' not found or unable to stat
+[Sun Nov 11 21:11:17 2018] [error] [client ::1] script 'C:/apache/phpinfo.php' not found or unable to stat
+[Sun Nov 11 21:11:24 2018] [error] [client ::1] File does not exist: C:/apache/phpinfo
+[Sun Nov 11 21:12:00 2018] [error] [client ::1] script 'C:/apache/text.php' not found or unable to stat
+[Sun Nov 11 21:12:21 2018] [error] [client ::1] PHP Warning:  phpinfo() [<a href='function.phpinfo'>function.phpinfo</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Moscow' for '3.0/no DST' instead in C:\\apache\\test.php on line 2, referer: http://localhost/
+[Mon Nov 12 08:58:34 2018] [error] [client ::1] PHP Warning:  phpinfo() [<a href='function.phpinfo'>function.phpinfo</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Moscow' for '3.0/no DST' instead in C:\\apache\\test.php on line 2, referer: http://localhost/
+[Mon Nov 12 09:04:56 2018] [error] [client ::1] File does not exist: C:/apache/index.html
+[Mon Nov 12 09:04:56 2018] [error] [client ::1] PHP Warning:  phpinfo() [<a href='function.phpinfo'>function.phpinfo</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Moscow' for '3.0/no DST' instead in C:\\apache\\test.php on line 2
+[Mon Nov 12 09:12:55 2018] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 12 09:12:55 2018] [notice] Child 8756: Exit event signaled. Child process is ending.
+[Mon Nov 12 09:12:56 2018] [notice] Child 8756: Released the start mutex
+[Mon Nov 12 09:12:57 2018] [notice] Child 8756: All worker threads have exited.
+[Mon Nov 12 09:12:57 2018] [notice] Child 8756: Child process is exiting
+[Mon Nov 12 09:12:57 2018] [notice] Parent: Child process exited successfully.
+Starting the Apache2.2 service
+The Apache2.2 service is running.
+] Apache/2.2.22 (Win32) PHP/5.3.5 configured -- resuming normal operations
+[Mon Nov 12 09:35:06 2018] [notice] Server built: Apr 20 2012 11:04:01
+[Mon Nov 12 09:35:06 2018] [notice] Parent: Created child process 11848
+[Mon Nov 12 09:35:06 2018] [notice] Child 11848: Child process is running
+[Mon Nov 12 09:35:06 2018] [notice] Child 11848: Acquired the start mutex.
+[Mon Nov 12 09:35:06 2018] [notice] Child 11848: Starting 64 worker threads.
+[Mon Nov 12 09:35:06 2018] [notice] Child 11848: Starting thread to listen on port 80.
+[Mon Nov 12 09:35:06 2018] [notice] Child 11848: Starting thread to listen on port 80.
+[Mon Nov 12 09:35:12 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/background.png, referer: http://localhost/735M/SVMzhelskiy/style.css
+[Mon Nov 12 09:35:12 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/style.css
+[Mon Nov 12 09:35:51 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/background.png, referer: http://localhost/735M/SVMzhelskiy/style.css
+[Mon Nov 12 09:35:51 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/style.css
+[Mon Nov 12 09:36:06 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/background.png, referer: http://localhost/735M/SVMzhelskiy/style.css
+[Mon Nov 12 09:36:06 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/style.css
+[Mon Nov 12 09:37:23 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:37:23 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:37:29 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/index.html, referer: http://localhost/735M/SVMzhelskiy/LAB2/
+[Mon Nov 12 09:38:03 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/index.html, referer: http://localhost/735M/SVMzhelskiy/LAB2/
+[Mon Nov 12 09:38:06 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:38:06 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:41:32 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:41:32 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:42:01 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:42:01 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:42:03 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:42:03 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:42:35 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:42:35 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:42:44 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:42:44 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:42:54 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:42:54 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:43:55 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:43:55 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:43:57 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:43:57 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:44:13 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:44:13 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:45:28 2018] [error] [client 127.0.0.1] PHP Warning:  phpinfo() [<a href='function.phpinfo'>function.phpinfo</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Moscow' for '3.0/no DST' instead in C:\\apache\\test.php on line 2
+[Mon Nov 12 09:47:47 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:47:47 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:47:49 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:47:49 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:48:19 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:48:19 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:48:20 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:48:20 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:48:32 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:48:32 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:49:26 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:49:26 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:50:34 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:50:34 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:50:38 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:50:38 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:51:46 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:51:46 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:51:48 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:51:48 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:52:32 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:52:42 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:52:42 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:55:30 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:55:30 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:55:44 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:55:44 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:56:11 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:56:11 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:56:12 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:56:12 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:56:49 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:56:49 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:56:51 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:56:51 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:57:36 2018] [error] [client ::1] PHP Warning:  date() [<a href='function.date'>function.date</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Moscow' for '3.0/no DST' instead in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\bottom.inc.php on line 9, referer: http://localhost/735M/SVMzhelskiy/LAB2/index.php
+[Mon Nov 12 09:57:36 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:57:36 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:58:13 2018] [error] [client ::1] PHP Warning:  date() [<a href='function.date'>function.date</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Moscow' for '3.0/no DST' instead in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\bottom.inc.php on line 9, referer: http://localhost/735M/SVMzhelskiy/LAB2/index.php
+[Mon Nov 12 09:58:13 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:58:13 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:58:58 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/function.date, referer: http://localhost/735M/SVMzhelskiy/LAB2/index.php
+[Mon Nov 12 09:59:22 2018] [error] [client ::1] PHP Notice:  date_default_timezone_set() [<a href='function.date-default-timezone-set'>function.date-default-timezone-set</a>]: Timezone ID 'Y-m-d H:i:s' is invalid in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\bottom.inc.php on line 9, referer: http://localhost/735M/SVMzhelskiy/LAB2/index.php
+[Mon Nov 12 09:59:22 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:59:22 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:59:40 2018] [error] [client ::1] PHP Warning:  date_default_timezone_set() expects exactly 1 parameter, 0 given in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\bottom.inc.php on line 9, referer: http://localhost/735M/SVMzhelskiy/LAB2/index.php
+[Mon Nov 12 09:59:40 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 09:59:40 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:00:15 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:00:15 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:02:08 2018] [error] [client ::1] PHP Warning:  date() expects at least 1 parameter, 0 given in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\bottom.inc.php on line 10, referer: http://localhost/735M/SVMzhelskiy/LAB2/index.php
+[Mon Nov 12 10:02:08 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:02:08 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:02:37 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:02:37 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:03:32 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:03:32 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:04:51 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:04:51 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:05:11 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:05:11 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:05:23 2018] [error] [client ::1] PHP Notice:  date_default_timezone_set() [<a href='function.date-default-timezone-set'>function.date-default-timezone-set</a>]: Timezone ID 'GTM+4' is invalid in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\bottom.inc.php on line 9, referer: http://localhost/735M/SVMzhelskiy/LAB2/index.php
+[Mon Nov 12 10:05:23 2018] [error] [client ::1] PHP Warning:  date() [<a href='function.date'>function.date</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Moscow' for '3.0/no DST' instead in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\bottom.inc.php on line 10, referer: http://localhost/735M/SVMzhelskiy/LAB2/index.php
+[Mon Nov 12 10:05:23 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:05:23 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:05:35 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:05:35 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:06:17 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:06:17 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:06:30 2018] [error] [client ::1] PHP Notice:  Use of undefined constant info - assumed 'info' in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\bottom.inc.php on line 14, referer: http://localhost/735M/SVMzhelskiy/LAB2/index.php
+[Mon Nov 12 10:06:31 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:06:31 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:15:53 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:15:53 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:17:01 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:17:01 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:21:32 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:21:32 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:21:42 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:21:42 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:22:52 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:22:52 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:28:42 2018] [error] [client ::1] PHP Warning:  phpinfo() [<a href='function.phpinfo'>function.phpinfo</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Moscow' for '3.0/no DST' instead in C:\\apache\\test.php on line 2, referer: http://localhost/
+[Mon Nov 12 10:33:06 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:33:06 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 10:50:32 2018] [error] [client ::1] PHP Warning:  phpinfo() [<a href='function.phpinfo'>function.phpinfo</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Moscow' for '3.0/no DST' instead in C:\\apache\\test.php on line 2, referer: http://localhost/
+[Mon Nov 12 11:03:24 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 12 11:03:24 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:29:23 2018] [error] [client ::1] File does not exist: C:/apache/favicon.ico, referer: http://localhost/
+[Tue Nov 13 12:29:26 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:29:26 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:32:53 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:32:53 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:34:59 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:34:59 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:35:25 2018] [error] [client ::1] script 'C:/apache/735M/SVMzhelskiy/LAB2/lab_rab1.php' not found or unable to stat, referer: http://localhost/735M/SVMzhelskiy/LAB2/index.php
+[Tue Nov 13 12:35:27 2018] [error] [client ::1] script 'C:/apache/735M/SVMzhelskiy/LAB2/lab_rab2.php' not found or unable to stat, referer: http://localhost/735M/SVMzhelskiy/LAB2/index.php
+[Tue Nov 13 12:35:46 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/index.html, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab1.html
+[Tue Nov 13 12:36:44 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/lab_rab1.html, referer: http://localhost/735M/SVMzhelskiy/LAB2/index.php
+[Tue Nov 13 12:36:47 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/lab_rab1.html, referer: http://localhost/735M/SVMzhelskiy/LAB2/index.php
+[Tue Nov 13 12:37:06 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/lab_rab1.html, referer: http://localhost/735M/SVMzhelskiy/LAB2/index.php
+[Tue Nov 13 12:37:10 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:37:10 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:37:12 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:37:12 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:37:15 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:37:15 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:37:16 2018] [error] [client ::1] script 'C:/apache/735M/SVMzhelskiy/LAB2/lab_rab2.php' not found or unable to stat, referer: http://localhost/735M/SVMzhelskiy/LAB2/index.php?date=%D0%B4%D0%B4.%D0%BC%D0%BC.%D0%B3%D0%B3.
+[Tue Nov 13 12:39:20 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:39:20 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:39:23 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:39:23 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:40:15 2018] [error] [client ::1] PHP Parse error:  syntax error, unexpected T_INCLUDE in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\index.php on line 17, referer: http://localhost/735M/SVMzhelskiy/LAB2/index.php?date=%D0%B4%D0%B4.%D0%BC%D0%BC.%D0%B3%D0%B3.
+[Tue Nov 13 12:40:36 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:40:36 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:40:39 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:40:39 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:41:03 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:41:03 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:41:04 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:41:04 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:41:09 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:41:09 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:43:03 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:43:03 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:43:05 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:43:05 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:43:06 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:43:06 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:43:08 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:43:08 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:58:54 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 12:58:54 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 13:02:30 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 13:02:30 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 13:02:38 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 13:02:38 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 13:06:17 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 13:06:17 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Tue Nov 13 13:06:22 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/generatePassword, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Tue Nov 13 13:07:40 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/generatePassword, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Tue Nov 13 13:08:25 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/generatePassword, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Tue Nov 13 13:13:35 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/$generatePassword, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Tue Nov 13 13:15:04 2018] [error] [client ::1] PHP Parse error:  syntax error, unexpected T_VARIABLE in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 13, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php?
+[Tue Nov 13 13:49:18 2018] [error] [client ::1] PHP Parse error:  syntax error, unexpected T_STRING in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 12, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php?
+[Tue Nov 13 13:49:50 2018] [error] [client ::1] PHP Parse error:  syntax error, unexpected T_STRING in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 20, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php?
+[Tue Nov 13 13:49:51 2018] [error] [client ::1] PHP Parse error:  syntax error, unexpected T_STRING in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 20, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php?
+[Tue Nov 13 13:50:09 2018] [error] [client ::1] PHP Fatal error:  Call to undefined function newt_form() in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 12, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php?
+[Wed Nov 14 17:21:36 2018] [error] [client ::1] File does not exist: C:/apache/favicon.ico, referer: http://localhost/
+[Wed Nov 14 17:21:39 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 14 17:21:39 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Sun Nov 18 19:09:03 2018] [error] [client ::1] File does not exist: C:/apache/favicon.ico, referer: http://localhost/
+[Sun Nov 18 19:10:24 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Sun Nov 18 19:10:24 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Sun Nov 18 19:40:46 2018] [error] [client ::1] PHP Warning:  base_convert() expects parameter 2 to be long, string given in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 6, referer: http://localhost/735M/SVMzhelskiy/LAB2/
+[Sun Nov 18 19:41:31 2018] [error] [client ::1] PHP Warning:  base_convert() expects parameter 2 to be long, string given in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 6, referer: http://localhost/735M/SVMzhelskiy/LAB2/
+[Sun Nov 18 19:41:32 2018] [error] [client ::1] PHP Warning:  base_convert() expects parameter 2 to be long, string given in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 6, referer: http://localhost/735M/SVMzhelskiy/LAB2/
+Starting the Apache2.2 service
+(OS 5)Отказано в доступе.  : Apache2.2: Failed to open the service.
+[Wed Nov 21 07:58:38 2018] [warn] pid file C:/Apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Nov 21 07:58:38 2018] [notice] Apache/2.2.22 (Win32) PHP/5.3.5 configured -- resuming normal operations
+[Wed Nov 21 07:58:38 2018] [notice] Server built: Apr 20 2012 11:04:01
+[Wed Nov 21 07:58:38 2018] [notice] Parent: Created child process 17624
+[Wed Nov 21 07:58:38 2018] [notice] Child 17624: Child process is running
+[Wed Nov 21 07:58:38 2018] [notice] Child 17624: Acquired the start mutex.
+[Wed Nov 21 07:58:38 2018] [notice] Child 17624: Starting 64 worker threads.
+[Wed Nov 21 07:58:38 2018] [notice] Child 17624: Starting thread to listen on port 80.
+[Wed Nov 21 07:58:38 2018] [notice] Child 17624: Starting thread to listen on port 80.
+[Wed Nov 21 07:58:46 2018] [error] [client ::1] File does not exist: C:/apache/favicon.ico, referer: http://localhost/
+[Wed Nov 21 08:02:44 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 08:02:44 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 08:02:46 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 08:02:46 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 08:56:40 2018] [error] [client ::1] PHP Warning:  Missing argument 2 for kmh(), called in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 95 and defined in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 2, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 08:56:40 2018] [error] [client ::1] PHP Notice:  Undefined variable: n in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 8, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 08:56:40 2018] [error] [client ::1] PHP Warning:  Division by zero in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 10, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 08:56:40 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 08:56:40 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 08:56:45 2018] [error] [client ::1] PHP Warning:  Missing argument 2 for kmh(), called in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 95 and defined in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 2, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 08:56:45 2018] [error] [client ::1] PHP Notice:  Undefined variable: n in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 8, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 08:56:45 2018] [error] [client ::1] PHP Warning:  Division by zero in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 10, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 08:56:45 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 08:56:45 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 08:57:41 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 08:57:41 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 08:57:48 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 08:57:48 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 08:57:51 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 08:57:51 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 08:57:55 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 08:57:55 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 08:59:00 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 08:59:00 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 08:59:10 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 08:59:10 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:00:28 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:00:28 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:00:34 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:00:34 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:01:01 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:01:01 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:02:25 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:02:25 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:03:18 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:03:18 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:03:19 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:03:19 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:03:20 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:03:20 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:03:22 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:03:22 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:03:25 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:03:25 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:07:48 2018] [error] [client ::1] PHP Notice:  Undefined variable: strrev in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 40, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 09:07:48 2018] [error] [client ::1] PHP Notice:  Undefined variable: strrev in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 40, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 09:07:48 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:07:48 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:09:09 2018] [error] [client ::1] PHP Parse error:  syntax error, unexpected '.', expecting T_VARIABLE or '$' in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 40, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 09:09:23 2018] [error] [client ::1] PHP Parse error:  syntax error, unexpected '$' in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 40, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 09:09:31 2018] [error] [client ::1] PHP Notice:  Use of undefined constant string - assumed 'string' in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 40, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 09:09:31 2018] [error] [client ::1] PHP Notice:  Undefined variable: strrev in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 40, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 09:09:31 2018] [error] [client ::1] PHP Notice:  Use of undefined constant string - assumed 'string' in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 40, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 09:09:31 2018] [error] [client ::1] PHP Notice:  Undefined variable: strrev in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 40, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 09:09:31 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:09:31 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:09:31 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:09:31 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:09:33 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:09:33 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:09:53 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:09:53 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:10:15 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:10:15 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:10:32 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:10:32 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:10:39 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:10:39 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:10:40 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:10:40 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:10:43 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:10:43 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:10:50 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:10:50 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:12:16 2018] [error] [client ::1] PHP Parse error:  syntax error, unexpected '=' in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 40, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 09:12:25 2018] [error] [client ::1] PHP Parse error:  syntax error, unexpected '=' in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 40, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 09:12:37 2018] [error] [client ::1] PHP Parse error:  syntax error, unexpected '=' in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 40, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 09:12:49 2018] [error] [client ::1] PHP Parse error:  syntax error, unexpected '=' in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 40, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 09:13:29 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:13:29 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:13:32 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:13:32 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:14:48 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:14:48 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:15:02 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:15:02 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:21:07 2018] [error] [client ::1] PHP Notice:  Undefined variable: strrev in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 103, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 09:21:07 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:21:07 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:24:47 2018] [error] [client ::1] PHP Notice:  Undefined variable: strrev in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 102, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 09:24:47 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:24:47 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:26:15 2018] [error] [client ::1] PHP Notice:  Undefined variable: strrev in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 101, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 09:26:15 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:26:15 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:26:42 2018] [error] [client ::1] PHP Notice:  Undefined variable: strrev in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 101, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 09:26:42 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:26:42 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:27:47 2018] [error] [client ::1] PHP Notice:  Undefined variable: strrev in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 103, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 09:27:47 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:27:47 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:27:54 2018] [error] [client ::1] PHP Notice:  Undefined variable: strrev in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 103, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 09:27:54 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:27:54 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:28:39 2018] [error] [client ::1] PHP Parse error:  syntax error, unexpected T_PRINT in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 43, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 09:28:48 2018] [error] [client ::1] PHP Notice:  Undefined variable: strrev in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 104, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 09:28:48 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:28:48 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:28:51 2018] [error] [client ::1] PHP Notice:  Undefined variable: strrev in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 104, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 09:28:51 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:28:51 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:29:10 2018] [error] [client ::1] PHP Parse error:  syntax error, unexpected '/' in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 42, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 09:29:24 2018] [error] [client ::1] PHP Notice:  Undefined variable: strrev in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 104, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 09:29:24 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:29:24 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:29:32 2018] [error] [client ::1] PHP Notice:  Undefined variable: strrev in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 104, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 09:29:32 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:29:32 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:29:36 2018] [error] [client ::1] PHP Notice:  Undefined variable: strrev in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 104, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 09:29:36 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:29:36 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:30:42 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:30:42 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:31:11 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:31:11 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:31:20 2018] [error] [client ::1] PHP Parse error:  syntax error, unexpected ';' in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 42, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 09:31:46 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 09:31:46 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 10:41:27 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 10:41:27 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 10:41:30 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 10:41:30 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 10:41:33 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 10:41:33 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 10:41:37 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 10:41:37 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 10:44:06 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 10:44:06 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 10:44:10 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 10:44:10 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 10:44:14 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 10:44:14 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 12:49:39 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 12:49:39 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 12:49:40 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 12:49:40 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 12:49:44 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 12:49:44 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 12:49:45 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 12:49:45 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 12:50:04 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 12:50:04 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:03:17 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:03:17 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:03:23 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:03:23 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:03:25 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:03:25 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:13:31 2018] [error] [client ::1] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 24, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 13:13:59 2018] [error] [client ::1] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 25, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 13:14:34 2018] [error] [client ::1] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 23, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 13:16:02 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:16:02 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:16:05 2018] [error] [client ::1] PHP Notice:  Undefined variable: a in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 21, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 13:16:05 2018] [error] [client ::1] PHP Notice:  Undefined variable: result1 in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 25, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 13:16:05 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:16:05 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:16:10 2018] [error] [client ::1] PHP Notice:  Undefined variable: a in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 21, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 13:16:10 2018] [error] [client ::1] PHP Notice:  Undefined variable: result1 in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 25, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 13:16:10 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:16:10 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:16:11 2018] [error] [client ::1] PHP Notice:  Undefined variable: a in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 21, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 13:16:11 2018] [error] [client ::1] PHP Notice:  Undefined variable: result1 in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 25, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 13:16:11 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:16:11 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:16:14 2018] [error] [client ::1] PHP Notice:  Undefined variable: a in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 21, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 13:16:14 2018] [error] [client ::1] PHP Notice:  Undefined variable: result1 in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 25, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 13:16:14 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:16:14 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:16:38 2018] [error] [client ::1] PHP Notice:  Undefined variable: a in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 21, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Wed Nov 21 13:16:38 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:16:38 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:17:02 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:17:02 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:17:05 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:17:05 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:17:07 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:17:07 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:18:34 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:18:34 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:18:36 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:18:36 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:20:16 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:20:16 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:20:18 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:20:18 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:20:20 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Wed Nov 21 13:20:20 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 08:47:32 2018] [warn] pid file C:/Apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Nov 26 08:47:32 2018] [notice] Apache/2.2.22 (Win32) PHP/5.3.5 configured -- resuming normal operations
+[Mon Nov 26 08:47:32 2018] [notice] Server built: Apr 20 2012 11:04:01
+[Mon Nov 26 08:47:32 2018] [notice] Parent: Created child process 756
+[Mon Nov 26 08:47:32 2018] [notice] Child 756: Child process is running
+[Mon Nov 26 08:47:32 2018] [notice] Child 756: Acquired the start mutex.
+[Mon Nov 26 08:47:32 2018] [notice] Child 756: Starting 64 worker threads.
+[Mon Nov 26 08:47:32 2018] [notice] Child 756: Starting thread to listen on port 80.
+[Mon Nov 26 08:47:32 2018] [notice] Child 756: Starting thread to listen on port 80.
+[Mon Nov 26 08:47:38 2018] [error] [client ::1] File does not exist: C:/apache/favicon.ico, referer: http://localhost/
+[Mon Nov 26 08:47:41 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 08:47:41 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 08:57:52 2018] [error] [client ::1] PHP Parse error:  syntax error, unexpected '}' in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 22, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Mon Nov 26 08:58:27 2018] [error] [client ::1] PHP Parse error:  syntax error, unexpected T_ELSE in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 23, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Mon Nov 26 08:58:39 2018] [error] [client ::1] PHP Parse error:  syntax error, unexpected '}' in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 32, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Mon Nov 26 08:59:01 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 08:59:01 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 08:59:06 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 08:59:06 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 08:59:07 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 08:59:07 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 08:59:28 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 08:59:28 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 08:59:29 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 08:59:29 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 08:59:31 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 08:59:31 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 08:59:47 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 08:59:47 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:01:04 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:01:04 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:01:46 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:01:46 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:02:55 2018] [error] [client ::1] PHP Parse error:  syntax error, unexpected '&' in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 39, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Mon Nov 26 09:03:09 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:03:09 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:03:10 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:03:10 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:03:12 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:03:12 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:03:37 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:03:37 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:05:33 2018] [error] [client ::1] PHP Parse error:  syntax error, unexpected ';' in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 31, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Mon Nov 26 09:05:46 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:05:46 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:05:48 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:05:48 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:08:04 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:08:04 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:08:07 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:08:07 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:08:37 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:08:37 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:08:39 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:08:39 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:09:48 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:09:48 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:09:50 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:09:50 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:10:03 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:10:03 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:10:05 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:10:05 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:10:09 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:10:09 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:20:27 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:20:27 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:20:29 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:20:29 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:20:31 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:20:31 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:20:54 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:20:54 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:20:55 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:20:55 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:22:31 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:22:31 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:22:32 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:22:32 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:22:34 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:22:34 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:48:36 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:48:36 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:48:38 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:48:38 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:48:40 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:48:40 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:49:33 2018] [error] [client ::1] PHP Parse error:  syntax error, unexpected ')', expecting T_PAAMAYIM_NEKUDOTAYIM in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 21, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Mon Nov 26 09:50:02 2018] [error] [client ::1] PHP Parse error:  syntax error, unexpected ';', expecting T_PAAMAYIM_NEKUDOTAYIM in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 21, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Mon Nov 26 09:50:12 2018] [error] [client ::1] PHP Parse error:  syntax error, unexpected '&' in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 21, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Mon Nov 26 09:50:31 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:50:31 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:50:33 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:50:33 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:50:40 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:50:40 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:50:42 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:50:42 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:50:43 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:50:43 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:51:43 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:51:43 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:52:26 2018] [error] [client ::1] PHP Notice:  Undefined variable: result in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 35, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Mon Nov 26 09:52:26 2018] [error] [client ::1] PHP Notice:  Only variable references should be returned by reference in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 36, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Mon Nov 26 09:52:35 2018] [error] [client ::1] PHP Notice:  Undefined variable: result in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 35, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Mon Nov 26 09:52:35 2018] [error] [client ::1] PHP Notice:  Only variable references should be returned by reference in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 36, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Mon Nov 26 09:52:38 2018] [error] [client ::1] PHP Notice:  Undefined variable: result in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 35, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Mon Nov 26 09:52:38 2018] [error] [client ::1] PHP Notice:  Only variable references should be returned by reference in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 36, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Mon Nov 26 09:52:40 2018] [error] [client ::1] PHP Notice:  Undefined variable: result in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 35, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Mon Nov 26 09:52:40 2018] [error] [client ::1] PHP Notice:  Only variable references should be returned by reference in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 36, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Mon Nov 26 09:54:04 2018] [error] [client ::1] PHP Notice:  Undefined variable: numeric1 in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 40, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Mon Nov 26 09:54:04 2018] [error] [client ::1] PHP Notice:  Undefined variable: numeric2 in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 41, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Mon Nov 26 09:54:29 2018] [error] [client ::1] PHP Notice:  Undefined variable: numeric in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 21, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Mon Nov 26 09:54:29 2018] [error] [client ::1] PHP Notice:  Undefined variable: numeric in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 32, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Mon Nov 26 09:56:23 2018] [error] [client ::1] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 43, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Mon Nov 26 09:56:40 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:56:40 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:56:42 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:56:42 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:56:46 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 09:56:46 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 10:16:43 2018] [error] [client ::1] PHP Parse error:  syntax error, unexpected '.' in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 42, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Mon Nov 26 10:16:56 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 10:16:56 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 10:19:06 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 10:19:06 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 10:21:02 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 10:21:02 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 10:22:46 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 10:22:46 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 10:22:49 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 10:22:49 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 10:27:39 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 10:27:39 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 10:27:40 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 10:27:40 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 10:27:44 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 10:27:44 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 11:16:05 2018] [error] [client ::1] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 53, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Mon Nov 26 11:16:30 2018] [error] [client ::1] PHP Notice:  Only variable references should be returned by reference in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 43, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Mon Nov 26 11:16:30 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 11:16:30 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 11:17:22 2018] [error] [client ::1] PHP Notice:  Only variable references should be returned by reference in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 43, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Mon Nov 26 11:17:23 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 11:17:23 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 11:17:25 2018] [error] [client ::1] PHP Notice:  Only variable references should be returned by reference in C:\\apache\\735M\\SVMzhelskiy\\LAB2\\lab_rab2.php on line 43, referer: http://localhost/735M/SVMzhelskiy/LAB2/lab_rab2.php
+[Mon Nov 26 11:17:25 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 11:17:25 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 11:17:41 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 11:17:41 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 11:17:44 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 11:17:44 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 11:17:49 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 11:17:49 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 11:17:52 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 11:17:52 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 11:18:00 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 11:18:00 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 11:33:01 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 11:33:01 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 11:33:04 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 11:33:04 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 12:58:29 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 12:58:29 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 12:58:44 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/background.png, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
+[Mon Nov 26 12:58:44 2018] [error] [client ::1] File does not exist: C:/apache/735M/SVMzhelskiy/LAB2/block1.jpg, referer: http://localhost/735M/SVMzhelskiy/LAB2/style.css
